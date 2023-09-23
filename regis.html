@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title> Registration Form</title> 
+        <link rel="stylesheet" href="regis.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <nav>
+            <a href="main.html">
+                <img class="logo" src="./image/homeLogo.png" width="69px">
+            </a>
+            <ul>
+                <li><a href="main.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="https://www.dekoruma.com">Market</a></li>
+                <li><a href="https://www.instagram.com/dekoruma/">Social Media</a></li>
+                <li><a href="login.html">Log Out</a></li>
+            </div>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="title">Registration</div> <br>
+            <div class="text">Click <a href="login.html">here</a> if you have an account.</div> 
+            <br>
+            <form action="#">
+            <div class="user-details">
+                <div class="input-box">
+                    <span class="details">Name :</span>
+                    <input type="text" placeholder="Enter Full Name" required>
+                </div>
+                <!-- <br> -->
+                <div class="input-box">
+                    <span class="details">Username :</span>
+                    <input type="text" placeholder="Enter Username" required>
+                </div>
+                <!-- <br> -->
+                <div class="input-box">
+                    <span class="details">Email :</span>
+                    <input type="text" placeholder="xxxx@mail.com" required>
+                </div>
+                <!-- <br> -->
+                <!-- <br> -->
+                <div class="input-box">
+                    <span class="details">Phone Number :</span>
+                    <input type="text" placeholder="Enter Phone Number" required>
+                </div>
+                <!-- <br> -->
+                <div class="input-box">
+                    <span class="details">Password :</span>
+                    <input type="text" placeholder="Minimum 8 Characters" required>
+                </div>
+                <!-- <br> -->
+                <div class="input-box">
+                    <span class="details">Confirm Password :</span>
+                    <input type="text" placeholder="Re-enter Password" required>
+                </div>
+                <div class="input-box">
+                    <span class="details">Age :</span>
+                    <select>
+                        <option value="18" required>Under 18</option>
+                        <option value="25" required>18-25</option>
+                        <option value="35" required>25-35</option>
+                        <option value="45" required>35-45</option>
+                        <option value="45+" required>45+</option>
+                    </select>
+                </div>                
+            </div>
+            <div class="gender-details">
+                <span class="gender-title">Gender</span>
+                <br>
+                <br>
+                <div class="Category">
+                    <label for="">
+                        <span class="gender">Male</span>
+                        <input type="radio" name="Gender" id="001" value="Male">
+                    </label>
+                    <label for="">                  
+                        <span class="gender">Female</span>
+                        <input type="radio" name="Gender" id="002" value="Female">
+                    </label>
+                    <label for="">
+                        <span class="gender">Other</span>
+                        <input type="radio" name="Gender" id="003" value="Other">
+                        <br><br>
+                    </label>
+                </div>
+            </div>
+            <div style="text-align:center" class="button" onclick="document.location='login.html'">
+                <input type="submit" value="Register">
+            </div>
+        </form>
+        </div>
+        <footer>
+            <p>
+                Project HCI Furniture Shop <br>
+               Contact : <a href="furniShop@email.com">furniShop@email.com</a><br>
+               Phone : +6281394854736
+            </p>
+        </footer>
+    </body>
+</html>
